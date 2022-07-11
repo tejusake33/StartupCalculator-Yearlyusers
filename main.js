@@ -49,7 +49,7 @@ function createChart(labelData,dataPoints){
               title: {
                 color: "grey",
                 display: true,
-                text: "Years Passed"
+                text: "Years"
               }
             },
             y: {
@@ -57,7 +57,7 @@ function createChart(labelData,dataPoints){
               title: {
                 color: "grey",
                 display: true,
-                text: "Years Passed"
+                text: "Yearly Users"
               }
             }
           }
