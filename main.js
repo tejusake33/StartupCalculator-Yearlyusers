@@ -11,7 +11,7 @@ function cal(event){
     let labels = [];
 
     for (let i=0; i<=5; i++){
-        var yearlyUsers = (data[i]*growth)-(data[i]*churn);
+        var yearlyUsers = (data[i]*growth)-(data[i]*churn).toFixed(2);
         data.push(yearlyUsers);
         labels.push(i);
     }
